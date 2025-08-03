@@ -44,7 +44,7 @@ export function Header() {
               <span className="sr-only">فتح القائمة</span>
             </Button>
           </SheetTrigger>
-          <SheetContent side="right" className="w-full max-w-sm">
+          <SheetContent side="right" className="w-full max-w-sm bg-white" >
             <nav className="flex flex-col gap-6 text-lg font-medium mt-8">
               {navLinks.map((link) => (
                 <SheetClose asChild key={link.href}>
