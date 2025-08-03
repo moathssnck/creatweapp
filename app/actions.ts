@@ -48,7 +48,7 @@ const formSchema = z.object({
  * @returns The URL of the uploaded image, or null if the upload fails.
  */
 async function uploadToImgBB(file: File): Promise<string | null> {
-  const apiKey = process.env.IMGBB_API_KEY
+  const apiKey = "8e053dcae08b222458c44566888660fa"
   if (!apiKey) {
     console.error("ImgBB API key is not set.")
     return null
