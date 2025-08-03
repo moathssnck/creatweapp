@@ -61,7 +61,7 @@ export default function CtaFormPage() {
                       </div>
                       <div className="space-y-2">
                         <Label htmlFor="phone">رقم الجوال</Label>
-                        <Input id="phone" name="phone" type="tel" placeholder="9665xxxxxxx+" />
+                        <Input id="phone" name="phone" type="tel" placeholder="968xxxxxxx+" />
                         {state.errors?.phone && <p className="text-red-500 text-sm">{state.errors.phone[0]}</p>}
                       </div>
                     </div>
@@ -73,7 +73,7 @@ export default function CtaFormPage() {
                       </div>
                       <div className="space-y-2">
                         <Label htmlFor="nationality">الجنسية</Label>
-                        <Input id="nationality" name="nationality" placeholder="مثال: سعودي" />
+                        <Input id="nationality" name="nationality" placeholder="مثال: عماني" />
                         {state.errors?.nationality && (
                           <p className="text-red-500 text-sm">{state.errors.nationality[0]}</p>
                         )}
@@ -94,7 +94,7 @@ export default function CtaFormPage() {
                           <SelectTrigger id="company-type">
                             <SelectValue placeholder="اختر النوع" />
                           </SelectTrigger>
-                          <SelectContent>
+                          <SelectContent className="bg-white">
                             <SelectItem value="llc">ذات مسؤولية محدودة</SelectItem>
                             <SelectItem value="sole">مؤسسة فردية</SelectItem>
                             <SelectItem value="partnership">شركة تضامن</SelectItem>
