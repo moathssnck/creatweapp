@@ -8,7 +8,7 @@ export function HeroSection() {
         <img
           src="/pexels-anna-nekrashevich-7552316.jpg"
           alt="خلفية مجردة"
-          className="w-full h-full object-cover opacity-20 "
+          className="w-full h-full object-cover opacity-50          "
         />
       </div>
       <div className="container relative px-4 md:px-6 h-[calc(100vh-4rem)] flex items-center">
