@@ -7,6 +7,7 @@ import { FaqSection } from "@/components/sections/faq-section"
 import { Header } from "@/components/layout/header"
 import { Footer } from "@/components/layout/footer"
 import CtaFormPage from "@/components/sections/cta-form-section"
+import { LiveChatWidget } from '@livechat/widget-react'
 
 export default function ProfessionalCompanyFormationPage() {
   return (
@@ -20,6 +21,7 @@ export default function ProfessionalCompanyFormationPage() {
         <TestimonialsSection />
         <FaqSection />
         <CtaFormPage />
+        <LiveChatWidget license="19256550"/>
       </main>
       <Footer />
     </div>
